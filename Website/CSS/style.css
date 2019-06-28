@@ -1,0 +1,134 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/design/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.header-logo{
+    background-image: url("../images/design/logosuks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 300px;
+
+}
+.divider{
+    height: 5vh;
+    background-color: gray;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+
+}
+.main-column{
+    margin: 3% 5% 3% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-image{
+    width: 35vw;
+    height: 40vh;
+}
+.main-div{
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-div-image{
+    height: 30vh;
+}
+#m-c-3{
+    justify-content: space-around;
+}
+#image1{
+    background-image: url("../images/scan.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+#image2{
+    background-image: url("../images/mat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#image4{
+    background-image: url("../images/rate.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dimage1{
+    background-image: url("../images/mat2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dimage2{
+    background-image: url("../images/phone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dimage3{
+    background-image: url("../images/pi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bestel{
+    background-color: lightgray;
+    height: 15vh;
+    width: 15vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5vh;
+}
+input{
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: 10vw;
+}
+textarea{
+    width: 10vw;
+    height: 10vh;
+    resize: vertical;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
